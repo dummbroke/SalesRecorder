@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Java Navigation Bar</string>
+    <string name="web_client_id">668611237533-obeen57eqrjb89gi0erkl1gai3hr5t47.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introduction">
+    Toms Team, a group of 4th year Computer Engineering students from PHINMA Cagayan de Oro College, proudly introduces the Sales Recorder application. Originating in our 3rd year as a project, Sales Recorder is designed to modernize and simplify the sales recording and monitoring process for a broad range of vendors, particularly those utilizing digital scales in their stores.\n\n
+    Our innovative solution seamlessly integrates digital scales with our application through Bluetooth technology, enabling automatic and accurate recording of sales data. This leap forward eliminates the traditional manual entry methods, ensuring efficiency and precision in sales tracking.\n\n
+    Sales Recorder stands out in the market as the first application to offer such integration with digital scales, showcasing our commitment to leveraging technology for creating practical and effective solutions. This application is a testament to our team\'s dedication, vision, and resilience, as we continuously strive to refine and enhance its capabilities.\n\n
+    We are devoted to ongoing improvement and development, aiming to significantly ease the daily operations of various vendors. Sales Recorder is not just a product but a reflection of our belief in the transformative power of technology in the world of commerce.
+</string>
+    <string name="description1">Keen Thomas, the developer and team leader, plays a pivotal role in both programming the app and steering the team towards success. With a blend of sharp technical acumen and strong leadership skills, Keen has been the driving force behind the project, ensuring seamless integration of software and hardware components, and leading the team in overcoming various technical challenges.</string>
+
+    <string name="description2">Francis Ladao, the creative mind behind the innovative digital scale hardware, contributes more than just hardware expertise. His holistic understanding of the product\'s vision enables him to align the hardware development seamlessly with the app\'s functionalities, ensuring a cohesive and user-friendly experience.</string>
+
+    <string name="description3">Erika Sanchez\'s role extends beyond meticulous documentation and thesis writing. Her deep involvement in the project includes participating in research and development discussions, contributing valuable insights that enhance the application\'s effectiveness and usability. Her dedication ensures our project is not only well-documented but also well-grounded in practical application.</string>
+
+    <string name="description4">Linca Lestojas, tasked with documentation and thesis papers, brings a broad perspective to the project. Her comprehensive understanding of the project\'s objectives allows her to effectively communicate its value and innovation in the documentation. Her ability to capture the essence of our technical and creative endeavors makes her contributions critical to the project\'s storytelling.</string>
+    <string-array name="productname">
+        <item>Select Product</item>
+        <item>ALL</item>
+        <item>TUNA</item>
+        <item>BANGUS</item>
+        <item>TILAPIA</item>
+        <item>RIBS</item>
+        <item>PORK CHOP</item>
+        <item>MASKARA</item>
+    </string-array>
+    <string name="edit">Edit</string>
+    <string name="delete">Edit</string>
+    <string name="facebook_button">Facebook</string>
+    <string name="instagram_button">Instagram</string>
+    <string name="tiktok_button">Tiktok</string>
+
+</resources>

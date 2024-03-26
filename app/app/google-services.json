@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "668611237533",
+    "project_id": "sales-recorder-6b93d",
+    "storage_bucket": "sales-recorder-6b93d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668611237533:android:7a206644f4e907d61d6674",
+        "android_client_info": {
+          "package_name": "com.example.javanavigationbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668611237533-9d013fudkotponi7iub8hn7q3c7sij2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.javanavigationbar",
+            "certificate_hash": "34ceadc34bc529fc2c623685ede01bfee7815bd4"
+          }
+        },
+        {
+          "client_id": "668611237533-c7fci7bbmvtg5sbr8ta5sii4b1nvaako.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4DtrwaSdWiApjrX1PIBG6LS1oyqiN_Fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668611237533-c7fci7bbmvtg5sbr8ta5sii4b1nvaako.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

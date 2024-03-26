@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f5e7dc"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/menuToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#d9a678"
+            android:elevation="4dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:title="Sales Recorder"
+            app:titleMarginStart="137dp"
+            app:titleTextColor="@color/black"
+            tools:ignore="MissingConstraints">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageButton
+            android:id="@+id/imgBtnFish"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_bg"
+            android:padding="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/salesicon"
+            app:layout_constraintEnd_toStartOf="@+id/imgBtnHelpSupport"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menuToolbar" />
+
+        <ImageButton
+            android:id="@+id/imgBtnHelpSupport"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/button_bg"
+            android:padding="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/helpsupport"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menuToolbar" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAboutUs"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/button_bg"
+            android:padding="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aboutus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTutorial"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/button_bg"
+            android:padding="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tutorial"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtBT2" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="81dp"
+            android:text="Sales"
+            android:textColor="#6d4c41"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBtnFish" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help Support"
+            android:textColor="#6d4c41"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.714"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/imgBtnHelpSupport" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBT"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_bg"
+            android:padding="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bluetooth"
+            app:layout_constraintEnd_toStartOf="@+id/imgBtnAboutUs"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/txtGetData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:text="Records"
+            android:textColor="#6d4c41"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBtnData" />
+
+        <TextView
+            android:id="@+id/txtGetData2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tutorial"
+            android:textColor="#6d4c41"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.593"
+            app:layout_constraintStart_toEndOf="@+id/txtGetData"
+            app:layout_constraintTop_toBottomOf="@+id/imgBtnTutorial" />
+
+        <ImageButton
+            android:id="@+id/imgBtnData"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_bg"
+            android:padding="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/getdata"
+            app:layout_constraintEnd_toStartOf="@+id/imgBtnTutorial"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtBT" />
+
+        <TextView
+            android:id="@+id/txtBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:text="Bluetooth"
+            android:textColor="#6d4c41"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txtBT2"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBtnBT" />
+
+        <TextView
+            android:id="@+id/txtBT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="53dp"
+            android:text="About Us"
+            android:textColor="#6d4c41"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBtnAboutUs" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/storage1"
+        android:icon="@drawable/num1"
+        android:title="Storage 1" />
+    <item
+        android:id="@+id/storage2"
+        android:icon="@drawable/num2"
+        android:title="Storage 2" />
+    <item
+        android:id="@+id/storage3"
+        android:icon="@drawable/num3"
+        android:title="Storage 3" />
+
+</menu>

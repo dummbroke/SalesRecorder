@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Java Navigation Bar</string>
+    <string name="open_nav"> Open Navigation Drawer></string>
+    <string name="close_nav"> Close Navigation Drawer></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="productname">
+        <item>Select Product</item>
+        <item>TUNA</item>
+        <item>BANGUS</item>
+        <item>TILAPIA</item>
+        <item>RIBS</item>
+        <item>PORK CHOP</item>
+        <item>MASKARA</item>
+    </string-array>
+</resources>

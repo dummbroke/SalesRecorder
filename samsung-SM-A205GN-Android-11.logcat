@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "device": {
+      "deviceId": "adb-R58M44V1L6P-jafDBr._adb-tls-connect._tcp",
+      "name": "samsung SM-A205GN",
+      "serialNumber": "adb-R58M44V1L6P-jafDBr._adb-tls-connect._tcp",
+      "isOnline": false,
+      "release": "11",
+      "sdk": 30,
+      "model": "SM-A205GN",
+      "isEmulator": false
+    },
+    "filter": "Part",
+    "projectApplicationIds": [
+      "com.example.salesrecorder",
+      "com.example.salesrecorder.test"
+    ]
+  },
+  "logcatMessages": [
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "--------- beginning of system"
+    }
